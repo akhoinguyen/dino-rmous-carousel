@@ -1,8 +1,8 @@
 var imgindex = 0;
 
-$(`img:eq(0)`).removeClass("hidden");
+$("img:eq(0)").removeClass("hidden");
 
-$(".next").on('click', function(e) {
+$(".next").on('click', function() {
 
 $(`img:eq(${imgindex})`).addClass("hidden");
 imgindex++;

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Img carousel</title>
+  <link rel="stylesheet" href="css/modules.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="relative h-w-1">
+    <div class="embed embed-3by1 absolute h-w-1 w-1">
+      <img class="embed-item hidden" src="images/crocodile.jpg" alt="">
+      <img class="embed-item hidden" src="images/brachiosaurs.jpg" alt="">
+      <img class="embed-item hidden" src="images/stegosaurus.jpg" alt="">
+    </div>
+
+    <a class="pin-cl prev" href="#">Previous</a>
+    <a class="pin-cr next" href="#">Next</a>
+  </div>
+
+  <script
+    src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
